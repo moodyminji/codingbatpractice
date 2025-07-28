@@ -1,0 +1,11 @@
+public String missingChar(String str, int n) {
+  if (n < 0 || n >= str.length()) {
+    throw new IllegalArgumentException("Index out of bounds");
+}
+
+  String front = str.substring(0, n);
+  
+  String back = str.substring(n+1, str.length());
+  
+  return front + back;
+}

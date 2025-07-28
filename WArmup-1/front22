@@ -1,0 +1,8 @@
+public String front22(String str) {
+
+  
+     String fr = str.substring(0,2);
+    
+  
+  return fr + str + fr;
+}

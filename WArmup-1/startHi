@@ -1,0 +1,10 @@
+public boolean startHi(String str) {
+  String fT = str.substring(0,2);
+  
+  if (fT.equals("hi")){
+    return true;
+    
+  }else{
+    return false;
+  }
+}

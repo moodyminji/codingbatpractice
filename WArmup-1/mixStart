@@ -1,0 +1,10 @@
+public boolean mixStart(String str) {
+  String fT = str.substring(0,3);
+  
+  if (fT.equals("ix")){
+    return true;
+    
+  }else{
+    return false;
+  }
+}
